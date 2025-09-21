@@ -95,9 +95,10 @@ if submitted:
     st.header("Bệnh án được AI soạn thảo:")
     with st.spinner("AI đang phân tích và soạn thảo, vui lòng chờ..."):
         try:
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-pro')
             response = model.generate_content(prompt_template)
             st.markdown(response.text)
         except Exception as e:
             st.error(f"Đã có lỗi xảy ra khi kết nối tới AI: {e}")
+
 
