@@ -10,7 +10,7 @@ from selenium.common.exceptions import TimeoutException
 # --- CÁC THAM SỐ CÓ THỂ ĐIỀU CHỈNH ---
 APP_URL = "https://tro-ly-benh-an.streamlit.app/"
 TOTAL_RUN_TIME_MINUTES = 10  # Tổng thời gian kịch bản sẽ chạy (phút)
-REFRESH_INTERVAL_MINUTES = 3   # Khoảng thời gian giữa mỗi lần làm mới (phút)
+REFRESH_INTERVAL_MINUTES = 4   # Khoảng thời gian giữa mỗi lần làm mới (phút)
 # ------------------------------------
 
 print("--- Setting up headless Chrome browser ---")
