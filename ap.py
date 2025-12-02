@@ -78,6 +78,7 @@ if submitted:
     - Liệt kê các hội chứng (từ các triệu chứng)
     - Liệt kê các triệu chứng đơn lẻ.
     - Liệt kê các tiền căn các giá trị.
+    - Liệt kê các triệu chứng âm tính có giá trị.
     
     ### 9. BIỆN LUẬN VÀ CHẨN ĐOÁN SƠ BỘ
     Để đưa ra chẩn đoán, hãy suy luận theo các bước sau:
@@ -106,6 +107,7 @@ if submitted:
             st.markdown(response.text)
         except Exception as e:
             st.error(f"Đã có lỗi xảy ra khi kết nối tới AI: {e}")
+
 
 
 
