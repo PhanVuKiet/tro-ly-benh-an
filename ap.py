@@ -74,17 +74,22 @@ if submitted:
     ### 7. TÓM TẮT BỆNH ÁN
     (Tóm tắt bệnh án qua vài dòng, nêu bật các hội chứng/triệu chứng chính từ các phần trên)
 
-    ### 8. BIỆN LUẬN VÀ CHẨN ĐOÁN SƠ BỘ
+    ### 8. ĐẶT VẤN ĐỀ
+    - Liệt kê các hội chứng (từ các triệu chứng)
+    - Liệt kê các triệu chứng đơn lẻ.
+    - Liệt kê các tiền căn các giá trị.
+    
+    ### 9. BIỆN LUẬN VÀ CHẨN ĐOÁN SƠ BỘ
     Để đưa ra chẩn đoán, hãy suy luận theo các bước sau:
     - **Phân tích triệu chứng:** Các triệu chứng cơ năng và thực thể chính của bệnh nhân là gì?
     - **Phân tích yếu tố nguy cơ:** Bệnh nhân có những yếu tố nguy cơ nào từ tiền căn và nghề nghiệp?
     - **Hội chứng:** Tổng hợp các triệu chứng dương tính và âm tính có ý nghĩa thành các Hội chứng đặc trưng.
     - **Biện luận và Chẩn đoán sơ bộ:** Kết hợp các yếu tố trên và dựa vào kiến thức y văn, hãy biện luận để đưa ra chẩn đoán sơ bộ có khả năng nhất.
 
-    ### 9. CHẨN ĐOÁN PHÂN BIỆT
+    ### 10. CHẨN ĐOÁN PHÂN BIỆT
     Dựa vào biện luận trên, hãy liệt kê các chẩn đoán phân biệt quan trọng cần được xem xét. Với mỗi chẩn đoán, hãy nêu ngắn gọn lý do tại sao nó được nghĩ đến và hướng để loại trừ.
 
-    ### 10. ĐỀ NGHỊ CẬN LÂM SÀNG
+    ### 11. ĐỀ NGHỊ CẬN LÂM SÀNG
     Đối với mỗi xét nghiệm được đề nghị, hãy ghi rõ mục đích của xét nghiệm đó để làm rõ chẩn đoán, dựa trên các hướng dẫn thực hành lâm sàng hiện hành. Nên tách thành xét nghiệm thường quy và xét nghiệm để chẩn đoán.
     Ví dụ: '- ECG: Theo hướng dẫn của AHA, đây là xét nghiệm đầu tay để đánh giá đau ngực, tìm dấu hiệu thiếu máu cục bộ.'
 
@@ -101,6 +106,7 @@ if submitted:
             st.markdown(response.text)
         except Exception as e:
             st.error(f"Đã có lỗi xảy ra khi kết nối tới AI: {e}")
+
 
 
 
